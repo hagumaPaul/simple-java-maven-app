@@ -21,5 +21,10 @@ pipeline {
                 echo 'This is working'
             }
         }
+        stage('Test1') {
+            steps {
+                echo 'Automation is running and working'
+            }
+        }
     }
 }
